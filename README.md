@@ -21,7 +21,7 @@
 2. Design Introduction - Design Fundamentals
 
 - 👉 Article about `Gestalt Theory`
-- 👨‍💻 [/1.2-Gestalt-article](https://github.com/tristan-sch/vefskolinn-studies/tree/main/1%20-%20Introductory%20Course/1.2-Gestalt-article-main)
+- 👨‍💻 [1.2-Gestalt-article](https://github.com/tristan-sch/vefskolinn-studies/tree/main/1%20-%20Introductory%20Course/1.2-Gestalt-article-main)
 
 3. HTML & CSS - Layouting
 
