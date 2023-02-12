@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"> 
+    <title>hello-accessibility</title>
+</head>
+<body>
+    
+    <div role="navigation" aria-label="Main menu" class="container"> <!--Role attribute + Aria label --> 
+            <nav>
+                <ul id="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#article">Article</a></li>
+                    <li><a href="#footer">Footer</a></li>
+                </ul>
+            </nav>
+    </div>
+
+    <div aria-label="Header section" role="banner" class="container" id="article"> <!--Role attribute + Aria label --> 
+        <h1>Hello Accessibility</h1>
+        <h2 class="subhead">Welcome to my assignment Design - UI Accessibility</h2>
+        <a href="https://www.w3.org/TR/wai-aria-practices-1.1/examples/landmarks/form.html" aria-label="Read more about ARIA Landmarks Example" target="_blank" and rel="noopener noreferrer"><img src="img/accessibility_info_icon.png" alt="info icon"></a> <!--Aria label --> 
+        
+    </div>
+
+
+    <section>
+
+        <div role="main" aria-label="Report on Universal design vs. Inclusive Design" id="article"> <!--Role attribute + Aria label --> 
+            <div class="container">
+                    <h3>Universal design approach <br> vs. Inclusive Design approach</h3>
+                        <div class="flexbox-1">
+                             <p>To apprehend the concepts of Universal Design and Inclusive Design, one has first to understand accessibility. Its definition is „the fact of being able to be reached or obtained easily“. One practical example would be to make a building wheelchair accessible. In web design, it means to make a website usable by people with disabilities, a website people can perceive, understand, navigate, and interact with. 
+                                 <br>
+                                 <br>
+                                Universal design goes beyond accessibility, its definition is “the design of products and environments to be usable by all people, to the greatest extent possible, without the need for adaptation or specialized design.“ Universal design takes into account preferences and desires and not only accessibility. But a universal design is a single solution intended to accommodate as many users as possible, which mean some users will eventually be excluded. 
+                                <br>
+                                <br>
+                                And this when inclusive design comes into place. One of its definitions by Microsoft is “a methodology that enables and draws on the full range of human diversity. Most importantly, this means including and learning from people with a range of perspectives.” So where universal design includes the many, inclusive design includes and takes into account everybody. To do so, inclusive design may offer different design solutions in order to avoid excluding anyone from using a product. 
+                                </p>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+
+    </section>
+
+    <footer id="footer">
+        <div role="contentinfo" class="footer-container"> <!--Role attribute --> 
+                <p>The end of my assignment for Design - UI Accessibility</p>
+            </div>
+    </footer>
+
+</body>
+</html>

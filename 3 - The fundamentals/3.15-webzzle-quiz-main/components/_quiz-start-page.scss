@@ -1,0 +1,52 @@
+/* logo small */
+.logo_sm {
+  @include logo-small();
+}
+
+/* logout icon */
+.logout {
+  @include logout($logout-icon);
+  grid-column: 3;
+  margin-top: 4.5rem;
+  margin-right: 4rem;
+  justify-self: center;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+
+.logout:hover {
+  background-image: $logout-hover;
+}
+
+/* quiz start page title */
+.quiz_name {
+  @include title();
+  .transition {
+    transition: all 1s ease;
+  }
+}
+
+/* quiz start page button */
+.start_btn {
+  text-align: center;
+  .transition {
+    transition: all 1s ease;
+  }
+  button {
+    font-size: 2rem;
+    font-weight: 500;
+    color: $white;
+    padding: 1.5rem 4rem;
+    outline: none;
+    border: none;
+    border-radius: $border-radius-button;
+    background: $hot-pink;
+    cursor: pointer;
+    box-shadow: $box-shadow;
+    &:hover {
+      transform: scale(1.02);
+      transition: transform 100ms;
+    }
+  }
+}

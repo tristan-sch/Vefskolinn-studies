@@ -1,0 +1,49 @@
+.article-form {
+  margin-left: 6.5vw;
+  input {
+    width: 75vw;
+    max-width: 530px;
+
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: 0em;
+    padding: 0.8rem;
+  }
+  textarea {
+    width: 80vw;
+    height: 20vw;
+    max-width: 1000px;
+    max-height: 280px;
+  }
+
+  // button {
+  //   height: 28px;
+  //   width: 80px;
+
+  //   font-weight: 800;
+  //   color: white;
+  //   border: none;
+  // }
+
+  // .delete-button {
+  //   background-color: #f17a7e;
+  // }
+
+  // .save-button {
+  //   background-color: #2f981e;
+  //   margin-right: 20px;
+  // }
+
+  // .content {
+  //   height: calc(100vh - 400px);
+  // }
+
+  // .footer {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+
+  //   margin-top: 20px;
+  // }
+}

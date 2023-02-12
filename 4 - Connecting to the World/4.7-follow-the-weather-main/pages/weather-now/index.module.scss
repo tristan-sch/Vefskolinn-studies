@@ -1,0 +1,61 @@
+@import "../../styles/variables/colors";
+@import "../../styles/variables/typography";
+@import "../../styles/variables/mixins";
+
+.grid {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  grid-template-areas: "main side";
+}
+
+.hero {
+  position: relative;
+  background-image: url("/images/today/blur-img/weather-now-blur.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: $neutral-800;
+  height: 100vh;
+  min-height: 50rem;
+}
+
+.button {
+  position: absolute;
+  padding: 0.8rem 1.6rem;
+  padding-right: 4rem;
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
+  background: rgba(119, 129, 136, 0.6);
+  @include heading-5;
+  border: 1px solid $white;
+
+  &:after {
+    content: "";
+    position: absolute;
+    height: 2.6rem;
+    width: 1rem;
+    right: 2rem;
+    background-image: url("/icons/arrow-down.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.intro {
+  max-width: 70%;
+  padding-top: 15%;
+  padding-left: 5%;
+
+  h5 {
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+}
+
+.belowthefold {
+  background-color: $background-color-main;
+
+  .activities {
+    display: block;
+  }
+}

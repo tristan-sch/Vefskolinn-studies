@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+}
+
+img {
+  width: 64px;
+}
+
+h1 {
+  color: #54c7b1;
+  font-family: "Cabin Sketch", sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 0.75rem;
+  padding-bottom: 5rem;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-weight: bold;
+  padding-bottom: 3rem;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+.container {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.footer-container {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flexbox-1 {
+  padding-left: 25em;
+  padding-right: 25em;
+  text-align: justify;
+  line-height: 2;
+}
+
+.button {
+  color: white;
+  border: 0;
+  background: #54c7b1;
+  border-radius: 20px;
+  padding: 1rem;
+  width: 20%;
+  /*nested elements */
+}
+.button .button-link {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+.button .button-link:hover {
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+}
+nav ul {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.75rem;
+  list-style-type: none;
+}
+nav li a {
+  color: black;
+  text-decoration: none;
+  text-align: right;
+  padding: 0 2em 0 0;
+  font-size: 1rem;
+}
+nav li a:hover {
+  color: #54c7b1;
+}

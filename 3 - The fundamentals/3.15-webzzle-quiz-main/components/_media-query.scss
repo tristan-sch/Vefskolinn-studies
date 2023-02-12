@@ -1,0 +1,30 @@
+@media screen and (max-width: 800px) {
+  .sign_main .sign_in_title,
+  .sign_main .sign_up_title,
+  .quiz_name {
+    font-size: 4.5rem;
+  }
+
+  .quiz_name {
+    line-height: 4.5rem;
+  }
+
+  .quiz_main_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// @media screen and (max-width: 600px) {
+//   .info_box,
+//   .quiz_box {
+//     width: 400px;
+//     // top: 35%;
+//   }
+
+//   .result_box {
+//     width: 400px;
+//   }
+// }

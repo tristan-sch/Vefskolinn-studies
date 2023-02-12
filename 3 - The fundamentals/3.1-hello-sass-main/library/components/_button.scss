@@ -1,0 +1,25 @@
+@use 'sass:math';
+
+.button {
+    color: $quadrary;
+    border: 0;
+    background: $primary;
+    border-radius: 20px;
+    padding: $button-padding;
+    width: math.div($base-width, 5);
+   
+
+    /*nested elements */ 
+    
+    .button-link {
+      font-size: $font-size-sm;
+      color: $quadrary;
+      text-decoration: none;
+    }
+
+    .button-link:hover {
+      color: $secondary;
+      font-family: $poppins;
+    }
+
+  }

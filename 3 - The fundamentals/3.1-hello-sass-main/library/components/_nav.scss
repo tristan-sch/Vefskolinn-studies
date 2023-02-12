@@ -1,0 +1,26 @@
+nav {
+    
+   /*nested elements */
+    ul {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        margin: $base-margin;
+        list-style-type: none;
+        }
+
+    li a {
+        color: $secondary;
+        text-decoration: none;
+        text-align: right;
+        padding: $nav-padding;
+        font-size: $nav-font-size;
+    }
+
+    li a:hover {
+        color: $primary;
+    }
+      
+}
+  

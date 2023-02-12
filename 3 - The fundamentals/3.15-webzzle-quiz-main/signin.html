@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <!-- <link rel="stylesheet" href="forms.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+<div class="logo_sm"></div>
+
+<!-- Sign up form -->
+<div class="sign_main">
+    
+    <h1 class="sign_in_title">Sign in</h1>
+
+
+    <form role="form" onsubmit="signIn(event);" id="form">
+
+      <ul class="flex_form">
+
+        <li>
+            <label for="username"></label>
+            <i class="material-icons icon" style="font-size:25px;">face</i>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="User name"
+              required
+            />
+        </li>
+
+        <li>
+            <label for="password"></label>
+            <i class="material-icons icon" style="font-size:25px;">vpn_key</i>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+        </li>
+
+        <li class="form_signup_btn">
+            <button type="submit" id="submit">Sign in</button>
+        </li>
+
+        <li class="msg" id="incorrectLogin-msg"></li></li>
+
+         
+    </ul>
+
+    </form>
+</div>
+
+
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/quiz.js"></script>
+
+     <!-- Inside this JavaScript file I've inserted the forms functions-->
+     <script src="js/forms.js"></script>
+
+</body>
+</html>
+</html>

@@ -1,0 +1,77 @@
+//flexbox - layout
+@mixin flex-content-column-align() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin flex-content-column-justify() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+//buttons
+@mixin button-hover-scale($color) {
+  background: $color;
+  transform: scale(1.02);
+  transition: transform 100ms;
+}
+
+@mixin welcome-page-button() {
+  width: clamp(250px, 30vw, 40vw);
+  font-size: 2rem;
+  font-weight: 500;
+  color: $white;
+  background: $hot-pink;
+  box-shadow: $box-shadow;
+  padding: 1rem 4rem;
+  outline: none;
+  border: none;
+  border-radius: $border-radius-button;
+  cursor: pointer;
+}
+
+//logos and icons
+@mixin logo-big() {
+  background-image: url("img/webzzle-logo-white.svg");
+  width: 80%;
+  height: clamp(500px, 60vh, 80vh);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+@mixin logo-small() {
+  background-image: url("img/webzzle-logo-small.svg");
+  width: clamp(40px, 80px, 100px);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@mixin logout($image) {
+  background-image: $image;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 100vh;
+}
+
+//sign in and up titles
+@mixin title() {
+  text-align: center;
+  font-size: 6rem;
+  margin-top: 6rem;
+  line-height: 6.5rem;
+  color: $white;
+  margin-bottom: 5rem;
+}
+
+//glass-effect background
+@mixin glass-box() {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: $border-radius-box;
+  box-shadow: $box-shadow;
+  backdrop-filter: blur(5px);
+}

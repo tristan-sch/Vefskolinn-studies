@@ -1,0 +1,84 @@
+:root {
+  --primary-color: #474a7b;
+  --secondary-color: #fe7020;
+  --success-color: #3c921e;
+  --error-color: #f0523c;
+}
+
+@import "./normalize.scss";
+@import "./skeleton.scss";
+
+html,
+body {
+  color: var(--primary-color);
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  word-break: break-word;
+}
+
+.display1 {
+  font-weight: 600;
+  font-size: 7.63rem;
+  line-height: 9.6rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.6rem;
+  margin-bottom: 6rem;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+}
+p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+.p_b {
+  font-weight: 700;
+}
+.p3 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+button {
+  background-color: none;
+  border: solid 1px var(--secondary-color);
+  border-radius: 2.4rem;
+  color: var(--secondary-color);
+  max-width: 30rem;
+}
+
+input,
+textarea {
+  background-color: #fcfcfc;
+  border: 1px solid var(--secondary-color);
+  border-radius: 7px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Hello DOM</title>
+</head>
+<body>
+
+    <!-- Added class for preloader -->
+    <div class="preloader">
+        <img src="img/spinner.svg" alt="spinner">
+    </div>
+
+    <div class="container">
+
+        <section>
+            <h1>DOM MANIPULATION</h1>
+            <button class="introBtn">Who are you?</button>
+            <p class="hello" id="name">Hello Friend!</p>
+            <p id="demo"></p>
+            <p>You have one minute to complete, this assignment. <br> Click when you are ready!</p>
+            <button class="countDownBtn" id= "countDown" onclick="startCountDown()">START</button>
+        </section>
+
+    </div>
+
+    <section>
+
+        <div class= "dom-container">
+            <div class="container">
+
+                    <!-- Flexbox -->
+                    <div class="flexbox"> 
+                        <div class="flexbox-1">
+                            <h2>Make a list</h2>
+                            <button class="addListBtn">Add item</button>
+                            <input class="list-input" type="text">
+                            <ul class="name-list">
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="flexbox-1">
+                            <h2>Remove from a list</h2>
+                            <ul class="name-list-2">
+                                <li id="demo">Item 1 <button class="removeBtn1" onclick="removeFromList()">Remove</button></li>
+                                <li id="demo">Item 2 <button class="removeBtn2" onclick="removeFromList()">Remove</button></li>
+                                <li id="demo">Item 3 <button class="removeBtn3" onclick="removeFromList()">Remove</button></li>
+                                <li id="demo">Item 4 <button class="removeBtn4" onclick="removeFromList()">Remove</button></li>
+                                <li id="demo">Item 5 <button class="removeBtn5" onclick="removeFromList()">Remove</button></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+
+        <div>
+
+        <div class= "dark-mode light-mode">
+            <div class="container">
+                <div>
+                    <h2>Toggle Dark/Light Mode</h2>
+                    <p>Click the button to toggle between dark and light mode for this div.</p>
+                    <button onclick="toggleDarkLightMode()">Light switch</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src=main.js></script>
+</body>
+</html>

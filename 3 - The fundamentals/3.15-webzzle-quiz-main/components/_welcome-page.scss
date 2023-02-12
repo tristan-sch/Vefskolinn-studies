@@ -1,0 +1,36 @@
+/* welcome page flexbox*/
+.welcome-page-flex {
+  // grid-column: 2;
+  @include flex-content-column-align();
+}
+
+/* welcome page logo */
+.logo {
+  @include logo-big();
+  justify-self: center;
+}
+
+/* welcome page buttons */
+
+.sign_btn_flex {
+  @include flex-content-column-justify();
+}
+
+.signin_btn {
+  margin-bottom: 2rem;
+  button {
+    @include welcome-page-button();
+    &:hover {
+      @include button-hover-scale($dark-purple);
+    }
+  }
+}
+
+.signup_btn {
+  button {
+    @include welcome-page-button();
+    &:hover {
+      @include button-hover-scale($dark-purple);
+    }
+  }
+}

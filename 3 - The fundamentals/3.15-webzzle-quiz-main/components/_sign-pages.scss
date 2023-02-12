@@ -1,0 +1,108 @@
+/* small logo */
+.logo_sm {
+  @include logo-small();
+  grid-column: 1;
+  margin-top: 4rem;
+  justify-self: center;
+  margin-left: 4rem;
+}
+
+/* signing pages allignment and title */
+.sign_main {
+  // grid-column: 2;
+  @include flex-content-column-align();
+
+  .sign_in_title {
+    @include title();
+  }
+
+  .sign_up_title {
+    @include title();
+  }
+}
+
+/* signing pages form */
+
+.flex_form {
+  list-style-type: none;
+  @include flex-content-column-justify();
+  width: clamp(350px, 40vw, 50vw);
+  gap: 30px;
+
+  input {
+    text-align: left;
+    padding-left: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: $dark-purple;
+    font-size: 20px;
+    width: 100%;
+    border: 3px solid $dark-purple;
+    border-radius: $border-radius-button;
+    background-color: $white;
+    &:focus {
+      outline-color: $hot-pink;
+    }
+  }
+
+  .icon {
+    padding-top: 35px;
+    min-width: 50px;
+    text-align: center;
+    position: absolute;
+    color: $dark-purple;
+  }
+
+  ::placeholder {
+    color: $dark-purple;
+    text-align: left;
+  }
+}
+
+.form_signup_btn {
+  align-self: end;
+  margin-top: 30px;
+  button {
+    width: 250px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $white;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: $border-radius-button;
+    background: $dark-blue;
+    cursor: pointer;
+    box-shadow: $box-shadow;
+    &:hover {
+      @include button-hover-scale($hot-pink);
+    }
+  }
+}
+
+/* error messages */
+.msg {
+  color: $white;
+  font-size: 1.1rem;
+  text-align: right;
+  margin-top: 20px;
+  font-weight: medium;
+}
+
+li {
+  a {
+    color: $white;
+    text-decoration: underline;
+    &:hover {
+      color: $dark-blue;
+      text-decoration: none;
+    }
+  }
+}
+
+/* media queries */
+@media (max-width: 1500px) {
+  .flex_form {
+    top: 70%;
+  }
+}

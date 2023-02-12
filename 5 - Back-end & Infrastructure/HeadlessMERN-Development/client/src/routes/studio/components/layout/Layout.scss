@@ -1,0 +1,32 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.header {
+  padding: 5rem 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__links {
+    display: flex;
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 6rem;
+    min-width: 54.2px;
+  }
+  &__user {
+    padding: 2rem 0rem;
+  }
+}

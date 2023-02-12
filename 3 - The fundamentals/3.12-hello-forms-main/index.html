@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <title>Hello Javascript Forms</title>
+</head>
+<body>
+
+
+    <div class="container">
+
+        <form onsubmit="return imsg()" id="form">
+
+            <div><h2> Get Started with forms</h2></div>
+    
+            <div>
+                <label for="username">Name</label>
+                <i class="fa fa-user"></i>
+                
+                <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="John Doe"
+                />
+                
+                <i class="fa fa-exclamation failure-icon"></i>
+                <i class="fa fa-check success-icon"></i>
+    
+                <div class="error"></div>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <i class="fa fa-envelope"></i>
+                
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="john.doe@gmail.com"
+                />
+                
+                <i class="fa fa-exclamation failure-icon"></i>
+                <i class="fa fa-check success-icon"></i>
+                
+                <div class="error"></div>
+            </div>
+            
+            <div>
+                <label for="password">Message</label>
+                <i class="fa fa-comment"></i>
+                
+                <input class="input-msg"
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Type your message here"
+                />
+                
+                <i class="fa fa-exclamation failure-icon"></i>
+                <i class="fa fa-check success-icon"></i>
+                
+                <div class="error"></div>
+            </div>
+
+            <button id="btn" type="submit" class="btn-form">Submit</button>
+            <div class="submit-msg" id="submit-msg"></div>
+
+        </form>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

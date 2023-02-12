@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  color: #54c7b1;
+  font-family: "Nunito", sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  color: black;
+  font-size: 2rem;
+  margin-top: 0.75rem;
+
+  font-family: "Nunito", sans-serif;
+}
+
+h3 {
+  color: #54c7b1;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+.container {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+/* Update 03.10.2021 */
+
+/**
+* ! style rules for form section
+**/
+
+form {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form div input {
+  width: 80%;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid #c4c4c4;
+  padding: 0 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-msg {
+  height: 80px;
+}
+
+.fa.fa-comment {
+  top: 37%;
+}
+
+form div {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+input:focus {
+  border: 2px solid #f2796e;
+}
+
+/**
+* ! style rules for form icons
+**/
+
+form div i {
+  position: absolute;
+  padding: 10px;
+}
+
+.failure-icon,
+.error {
+  color: red;
+}
+
+.success-icon {
+  color: green;
+}
+
+.error {
+  font-size: 14.5px;
+  margin-top: 5px;
+}
+
+.success-icon,
+.failure-icon {
+  right: 0;
+  opacity: 0;
+}
+
+/* Style rules for submit btn */
+
+.btn-form {
+  margin-top: 15px;
+  width: 100%;
+  height: 45px;
+  background-color: #54c7b1;
+  border: 2px solid #54c7b1;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+
+.btn-form:hover {
+  opacity: 0.8;
+}
+
+.submit-msg {
+  padding: 1em;
+}

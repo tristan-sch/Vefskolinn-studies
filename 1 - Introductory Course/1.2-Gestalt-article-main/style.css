@@ -1,0 +1,104 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+
+/* Main CSS */
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    height: 58vh;
+    background: #eeeeee;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    margin-top: 5%;
+    background: white;
+    padding: 3em;
+    width: 60%;
+}
+
+.overhead {
+    text-transform: uppercase;
+    color:  grey;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.subhead {
+    font-size: 15px;
+
+}
+
+h2 {
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+p {
+    line-height: 1.5em;
+    font-size: 18px;
+    text-align: justify;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+}
+
+p a:hover {
+    color: grey;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+.principles {
+    display: grid; 
+    grid-template-columns: 1fr 1fr ;
+   
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 3em;
+    margin-bottom: 0;
+}
+
+.principles p {
+    width: 80%;
+    text-align: left;
+}
+
+.flex-img {
+    display: block;
+    margin: 0;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.source {
+    font-size: 15px;
+    line-height: 0.5em;
+}

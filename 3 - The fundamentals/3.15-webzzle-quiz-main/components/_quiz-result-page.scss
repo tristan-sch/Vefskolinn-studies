@@ -1,0 +1,77 @@
+.result_box {
+  @include glass-box();
+  @include flex-content-column-justify();
+  padding: 1.8rem 2rem;
+  width: 450px;
+  align-items: center;
+  transform: translate(-50%, -50%) scale(0.9);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  .winner-goblet {
+    img {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .complete_text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .score_text {
+    span {
+      display: flex;
+      margin: 1.5rem 0;
+      font-size: 1.2rem;
+      font-weight: 500;
+
+      p {
+        padding: 0 0.2rem;
+        font-weight: 800;
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    margin: 2rem 0;
+
+    button {
+      margin: 0 0.5rem;
+      height: 45px;
+      padding: 0 2rem;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      border-radius: 100px;
+      border: 2px solid $hot-pink;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+.buttons {
+  button {
+    &.restart {
+      color: $white;
+      background: $hot-pink;
+      &:hover {
+        background: $hot-pink;
+      }
+    }
+    &.quit {
+      color: $hot-pink;
+      background: $white;
+      backdrop-filter: blur(5px);
+
+      &:hover {
+        color: $white;
+        background: $hot-pink;
+      }
+    }
+  }
+}

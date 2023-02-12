@@ -1,0 +1,81 @@
+
+
+
+// font styles
+
+body {
+  font-family: $poppins;
+}
+
+p {
+  color: $secondary;
+}
+
+
+h1 {
+  color: $primary;
+  font-family: $cabin;
+  font-size: $font-size-xl;
+}
+
+
+h2 {
+  color: $secondary;
+  font-size: $font-size-lg;
+  margin-top: $base-margin;
+  padding-bottom:$base-padding;
+  font-family: $cabin;
+  }
+
+h3 {
+  color: $primary;
+  font-size: $font-size-sm;
+  font-weight: normal;
+  }
+
+h4 {
+  font-weight: normal;
+  }
+
+
+// containers
+
+.container {
+  width: 100%;
+  padding-top:$base-padding;
+  padding-bottom:$base-padding;
+  text-align: center;
+}
+
+.experience-container {
+    background: $tertiary;
+}
+
+.goals-container {
+  background: none;
+}
+
+.interest-container {
+  background: $primary;
+}
+
+.interest-container h2 h3 {
+  color: $quadrary;
+}
+
+.interest-container h3 {
+  color: $quadrary;
+}
+
+.footer-container {
+  background-color: $tertiary;
+  width: 100%;
+  padding-top:$footer-padding;
+  text-align: center;
+}
+
+.footer-container img {
+  width: 2%;
+}
+
+

@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "FreightBig Medium";
+  src: url("/fonts/Freight/FreightBigProMedium-Regular.eot");
+  src: url("/fonts/Freight/FreightBigProMedium-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Freight/FreightBigProMedium-Regular.woff2") format("woff2"),
+    url("/fonts/Freight/FreightBigProMedium-Regular.woff") format("woff"),
+    url("/fonts/Freight/FreightBigProMedium-Regular.ttf") format("truetype"),
+    url("/fonts/Freight/FreightBigProMedium-Regular.svg#FreightBigProMedium-Regular")
+      format("svg");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FreightBig SemiBold";
+  src: url("/fonts/Freight/FreightBigProBold-Regular.eot");
+  src: url("/fonts/Freight/FreightBigProBold-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Freight/FreightBigProBold-Regular.woff2") format("woff2"),
+    url("/fonts/Freight/FreightBigProBold-Regular.woff") format("woff"),
+    url("/fonts/Freight/FreightBigProBold-Regular.ttf") format("truetype"),
+    url("/fonts/Freight/FreightBigProBold-Regular.svg#FreightBigProBold-Regular")
+      format("svg");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FreightBig Bold";
+  src: url("/fonts/Freight/FreightBigProBold-Regular.eot");
+  src: url("/fonts/Freight/FreightBigProBold-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Freight/FreightBigProBold-Regular.woff2") format("woff2"),
+    url("/fonts/Freight/FreightBigProBold-Regular.woff") format("woff"),
+    url("/fonts/Freight/FreightBigProBold-Regular.ttf") format("truetype"),
+    url("/fonts/Freight/FreightBigProBold-Regular.svg#FreightBigProBold-Regular")
+      format("svg");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Apercu Bold";
+  src: url("/fonts/Apercu/Apercu-Bold.eot");
+  src: url("/fonts/Apercu/Apercu-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Apercu/Apercu-Bold.woff") format("woff"),
+    url("/fonts/Apercu/Apercu-Bold.ttf") format("truetype"),
+    url("/fonts/Apercu/Apercu-Bold.svg#Apercu-Bold") format("svg");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Apercu Regular";
+  src: url("/fonts/Apercu/Apercu-Regular.eot");
+  src: url("/fonts/Apercu/Apercu-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Apercu/Apercu-Regular.woff") format("woff"),
+    url("/fonts/Apercu/Apercu-Regular.ttf") format("truetype"),
+    url("/fonts/Apercu/Apercu-Regular.svg#Apercu-Regular") format("svg");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Apercu Light";
+  src: url("/fonts/Apercu/Apercu-Light.eot");
+  src: url("/fonts/Apercu/Apercu-Light.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Apercu/Apercu-Light.woff") format("woff"),
+    url("/fonts/Apercu/Apercu-Light.ttf") format("truetype"),
+    url("/fonts/Apercu/Apercu-Light.svg#Apercu-Light") format("svg");
+  font-style: normal;
+  font-display: swap;
+}
+
+/********** Font **********/
+$text-heading-serif: "FreightBig Bold", serif;
+$text-heading-serif-Medium: "FreightBig Medium", serif;
+$text-heading-serif-SemiBold: "FreightBig SemiBold", serif;
+$text-heading-sans: "Apercu", sans-serif;
+$text-body-light: "Apercu Light", sans-serif;
+$text-body-Regular: "Apercu Regular", sans-serif;
+$text-body: "Apercu Light", sans-serif;
+$text-body-bold: "Apercu Bold", sans-serif;
+
+/********** Base **********/
+$text-base-size: 10px;
+$text-scale-ratio: 1.2;
+
+/********** Size **********/
+$font-size-display-lg--max: 14.4rem;
+$font-size-display-lg--min: 6rem;
+
+$font-size-h1--max: 6.4rem;
+$font-size-h1--min: 4.8rem;
+
+$font-size-h2--max: 4.8rem;
+$font-size-h2--min: 3.2rem;
+
+$font-size-h3--max: 3.6rem;
+$font-size-h3--min: 2.8rem;
+
+$font-size-h4--max: 2.8rem;
+$font-size-h4--min: 2.2rem;
+
+$font-size-h5--max: 2.2rem;
+$font-size-h5--min: 2rem;
+
+$font-size-pretitle-max: 6.4rem;
+$font-size-pretitle-min: 4.8rem;
+
+$font-size-p-lg--max: 1.8rem;
+$font-size-p-lg--min: 1.4rem;
+
+$font-size-p--max: 1.6rem;
+$font-size-p--min: 1.2rem;
+
+$font-size-p-sm--max: 1.4rem;
+$font-size-p-sm--min: 1rem;
+
+/********** LINE HEIGHT **********/
+$text-line-height__heading: 1.6;
+$text-line-height__body: 1.4;
+
+/********** VIEW WIDTHS **********/
+$view-width-min: 32rem;
+$view-width-max: 144rem;
