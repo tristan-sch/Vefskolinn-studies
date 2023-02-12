@@ -3,10 +3,10 @@
 🧑‍🎓
 
 - [Module 1 - Introductory Course](#Module-1---Introductory-Course)
-- [Module 2 - Community & Networking](#Module-2---Community-&-Networking)
+- [Module 2 - Community and Networking](#Module-2-and-Community-&-Networking)
 - [Module 3 - The fundamentals](#Module-3---The-fundamentals)
-- [Module 4 - Connecting to the World](#Module-4---Connecting-to-the-World)
-- [Module 5 - Back-end & Infrastructure](#Module-5---Back-end-&-Infrastructure)
+- [Module 4 - Connecting to the World](#Module-4-and-Connecting-to-the-World)
+- [Module 5 - Back-end and Infrastructure](#Module-5---Back-end-&-Infrastructure)
 - [Module 6 - Growing complexity](#Module-6---Growing-complexity)
 - [Module 7 - Exploration](#Module-7---Exploration)
 
@@ -31,7 +31,7 @@
 
 - 👉 Arctic Fox, Icelandic Travel Website using `html` and `css`
 
-## Module 2 - Community & Networking
+## Module 2 - Community and Networking
 
 For this module we add to attend various events and conferences in the web community
 
@@ -148,7 +148,7 @@ For this module we add to attend various events and conferences in the web commu
 - 👉 An activity based weather app with information on the culture of weather in Iceland and how to prepare for it when travelling
 - [Live site on Vercel](https://follow-the-weather.vercel.app/)
 
-## Module 5 - Back-end & Infrastructure
+## Module 5 - Back-end and Infrastructure
 
 1. Back-end - NoSQL in the cloud
 
@@ -200,5 +200,7 @@ For this module we add to attend various events and conferences in the web commu
 
 - 👉 How to build a Next.js app with Wordpress as headless CMS?
 - 👨‍💻 [Tuto on Canva](https://www.canva.com/design/DAE_p1kriDM/bL0IV6-vLicmfI6Gi0cE2Q/watch?utm_content=DAE_p1kriDM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 # Vefskolinn-studies
+
 # Vefskolinn-studies
