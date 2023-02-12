@@ -206,7 +206,7 @@ For this module we add to attend various events and conferences in the web commu
 ## Module 7 - Exploration
 
 - 👉 How to build a `Next.js` app with Wordpress as headless CMS?
-- 👨‍💻 [7-headless-wp](https://github.com/tristan-sch/vefskolinn-studies/blob/main/7%20-%20Exploration/7-headless-wp-main.zip) [Tuto on Canva](https://www.canva.com/design/DAE_p1kriDM/bL0IV6-vLicmfI6Gi0cE2Q/watch?utm_content=DAE_p1kriDM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- 👨‍💻 [7-headless-wp](https://github.com/tristan-sch/vefskolinn-studies/tree/main/7%20-%20Exploration/7-headless-wp-main) / [Tuto on Canva](https://www.canva.com/design/DAE_p1kriDM/bL0IV6-vLicmfI6Gi0cE2Q/watch?utm_content=DAE_p1kriDM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## 8 - Intership
 
